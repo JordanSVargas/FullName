@@ -4,12 +4,12 @@ import java.util.Objects;
 
 public class Student {
 
-    private String firstName;
+    private String firstName;       //Created the student variables
     private String lastName;
     private Double[] testScores;
     private ArrayList<Double> examScores;
 
-    public Student(String firstName, String lastName, Double[] testScores) {
+    public Student(String firstName, String lastName, Double[] testScores) {    //
         this.firstName = firstName;
         this.lastName = lastName;
         this.examScores = new ArrayList<>(Arrays.asList(testScores));
