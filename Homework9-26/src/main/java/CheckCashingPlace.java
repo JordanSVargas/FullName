@@ -7,11 +7,11 @@ public class CheckCashingPlace {
         HumanResources.printBadge(salariedEmployee);
         HumanResources hr = new HumanResources();
 
-       // Person[] payablePeople = {salariedEmployee, hourlyEmployee, entrepreneur};
+        Person[] payablePeople = {salariedEmployee, hourlyEmployee, entrepreneur};
 
         Employee[] employees = {salariedEmployee, hourlyEmployee};
 
-       // hr.issueBadge(employees);
+        hr.issueBadge(employees);
 
         for (Employee payable : employees) {
             hr.printPaymentInfo(payable);
